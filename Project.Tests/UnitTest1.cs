@@ -8,5 +8,11 @@ namespace Project.Tests
         public void Test1()
         {
         }
+        
+        [Fact]
+        public void Test2()
+        {
+            Assert.False(true);
+        }
     }
 }
