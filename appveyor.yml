@@ -8,7 +8,7 @@ dotnet_csproj:
   package_version: '{version}'
 environment:
   COVERALLS_REPO_TOKEN:
-    secure: T4HU+3zXxONb3hR4a+rJbE0MctjwMjlbHrYVBaU4BRXp9OAWygYlNUnDZZkG7vHk
+    secure: OynFRjIsC03VN268WTdCdP524gyHQvaZf
 build_script:
   - dotnet build -c Release
 test_script:
